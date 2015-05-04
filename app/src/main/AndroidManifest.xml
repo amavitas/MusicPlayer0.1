@@ -12,6 +12,12 @@
             android:label="@string/app_name" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <uses-permission android:name="android.permission.WAKE_LOC
+                <activity
+                 android:name="com.example.musicplayer.MainActivity"
+                 android:label="@string/app_name"
+                 android:launchMode="singleTop"
+                 android:screenOrientation="portrait" >K" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
